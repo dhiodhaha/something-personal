@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card {
+    @apply col-span-1 border h-[300px] w-[300px] flex flex-col justify-center rounded-md items-center;
+  }
+}
